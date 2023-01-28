@@ -1,0 +1,41 @@
+1. Incident Datetime: Ngày và giờ xảy ra sự cố
+2. Incident Date: Ngày xảy ra sự cố
+3. Incident Time: Thời gian xảy ra sự cố
+4. Incident Year: Năm xảy ra sự cố (được cung cấp để thuận tiện cho việc xử lý dữ liệu)
+5. Incident Day of Week: Thứ trong tuần ngày xảy ra sự cố.
+6. Report Datetime: Ngày và giờ báo cáo sự cố được ghi lại
+7. Row ID: Giá trị nhận dạng duy nhất cho mỗi hàng dữ liệu trong tập dữ liệu
+8. Incident ID: Mã định danh do hệ thống tạo ra cho các báo cáo sự cố
+9. Incident Number: Số được cấp trên báo cáo, đôi khi còn được gọi là Case Number. Con số này được sử dụng để tham khảo các trường hợp và tài liệu báo cáo
+10. CAD Number: The Computer Aided Dispatch (CAD) là hệ thống được Department of Emergency Management (DEM) sử dụng để điều động sĩ quan và các nhân viên an toàn khác. 
+ CAD Number được ấn định bởi hệ thống DEM và được liên kết với các báo cáo sự cố liên quan (Incident Number). Những báo cáo được nộp trực tuyến qua Coplogic và những 
+ hồ sơ khác không được nộp qua hệ thống DEM sẽ không có CAD Number.
+11. Report Type Code: Mã hệ thống cho các loại báo cáo, bao gồm:
+- II (Initial, Coplogic Initial)
+- VI (Vehicle Initial)
+- VS (Vehicle Supplement)
+- IS (Coplogic Supplement, Initial Supplement)
+12. Report Type Description: Mô tả của các loại báo cáo, bao gồm:
+- Initial: Báo cáo ban đầu của sự cố.
+- Initial Supplement: Báo cáo tiếp theo của báo cáo ban đầu.
+- Vehicle Initial: Báo cáo sự cố liên quan đến các phương tiện bị đánh cắp và / hoặc tìm lại.
+- Vehicle Supplement: Báo cáo bổ sung của Vehicle Initial.
+- Coplogic Initial: Báo cáo ban đầu của sự cố do người dân đệ trình bằng hệ thống báo cáo trực tuyến của SFPD
+- Coplogic Supplement: Báo cáo bổ sung của Coplogic Initial.
+13. Filed Online: Các báo cáo không khẩn cấp có thể được gửi trực tuyến bởi người dân thông qua hệ thống báo cáo của SFPD, được gọi là Coplogic. Giá trị sẽ là “TRUE” 
+nếu báo cáo được nộp online và ngược lại.
+14. Incident Code: Incident Code là mã hệ thống để mô tả một loại sự cố. Một báo cáo sự cố có thể có một hoặc nhiều Incident Code liên quan. Trong những trường hợp đó, 
+ Incident ID, Incident Number và CAD Number sẽ có giá trị giống nhau. 
+15. Incident Category: Một danh mục được ánh xạ tới Incident Code phân loại các sự cố.
+16. Incident Subcategory: Một danh mục con được ánh xạ tới Incident Code phân loại các sự cố.
+17. Incident Description: Mô tả sự cố tương ứng với Incident Code.
+18. Resolution: Hướng giải quyết tại thời điểm báo cáo, bao gồm: Cite or Arrest Adult, Exceptional Adult, Open or Active, Unfounded. khi đã nộp báo cáo, Resolution sẽ 
+không thay đổi. Thay đổi trạng thái và / hoặc cập nhật phải được cung cấp bằng cách sử dụng báo cáo bổ sung.
+19. Intersection: 2 hoặc nhiều tên đường giao nhau gần nhất với tên đường ban đầu được phân tách bằng dấu gạch chéo ngược (\).
+20. CNN: Mã định danh của Intersection.
+21. Police District: Cảnh sát quận phụ trách nơi sự cố xảy ra.
+22. Analysis Neighborhood: Khu vực lân cận nơi sự cố xảy ra.
+22. Supervisor District: Có 11 thành viên được bầu vào Hội đồng Giám sát ở San Francisco, mỗi người đại diện cho một khu vực địa lý.  Các quận được đánh số từ 1 đến 11.
+23. Latitude: Vĩ độ
+24. Longitude: Kinh độ
+25. Point: Vị trí địa lý. 
